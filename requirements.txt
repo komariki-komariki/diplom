@@ -1,0 +1,10 @@
+django
+psycopg2-binary
+djangorestframework
+django-rest-passwordreset
+djangorestframework-yaml
+django-filter
+pytz
+requests
+PyYAML
+psycopg2-binary

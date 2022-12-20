@@ -1,0 +1,17 @@
+{% include "header.html" %}
+
+    <div class="container">
+        <div>
+     <H2>Список товаров</H2>
+<ul>
+    {% for pr in product %}
+        <li>{{ pr.product }}</li>
+    {% endfor %}
+</ul>
+        </div>
+    </div>
+
+{% include "footer.html" %}
+
+
+
